@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Beige background */
+    color: #333;
+  }
+  .topnav-right{
+    float: right;
+    margin-bottom: 0px;
+}
+
+.navbar-nav .nav-link{
+  background-color:  rgb(205, 227, 239);
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left:50px;
+  margin-bottom: 0px;
+  color:  rgb(9, 51, 74);
+  font-size: 16px;
+  font-weight: 150;
+  margin-top: 15px;
+}
+.logo{
+  height: 45px;
+  margin-top:20px;
+  margin-left: 30px
+}
+
+.navbar-nav .nav-link:hover{
+  background-color: rgb(9, 51, 74);
+  color:rgb(205, 227, 239);
+}
+.header{
+  background-color: rgb(205, 227, 239);
+  color: grey;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+}
+  
+  .services {
+    text-align: center;
+    padding: 2rem;
+    background-color: white; 
+  }
+  
+  .services-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; /* Black text */
+  }
+  
+  .services-header h2 span {
+    color: rgb(9, 51, 74); /* Bright blue for emphasis */
+    text-decoration: underline;
+  }
+  
+  .services-header p {
+    color: rgb(9, 51, 74); 
+    margin-top: 0.5rem;
+  }
+  
+  .services-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background:rgb(9, 51, 74);; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    color: rgb(205, 227, 239); /* White text for contrast */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+   .service-card:hover {
+    transform: translateY(-10px);
+    background-color: rgb(205, 227, 239); /* Darker blue on hover */
+    color: rgb(9,51,74);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+  }
+  .service-card:hover h3,
+.service-card:hover p {
+  color: rgb(9, 51, 74); /* Dark blue text on hover */
+}
+  
+  .service-card img {
+    width: 120px;
+    height: 100px;
+    margin-bottom: 1rem;
+   
+  }
+  
+  .service-card h3 {
+    color: rgb(205, 227, 239); 
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .service-card p {
+    color: rgb(205, 227, 239); 
+    font-size: 0.9rem;
+  }
+  footer {
+    background-color: rgb(9,51,74);
+    color: rgb(205, 227, 239);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  footer a {
+    color: rgb(205, 227, 239);
+    text-decoration: none;
+    margin: 0px;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .footer-section {
+    margin-bottom: 15px;
+  
+  }
+  

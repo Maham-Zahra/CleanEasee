@@ -1,0 +1,131 @@
+
+.body{
+  font-family: popins;
+  color:  rgb(9, 51, 74);
+}
+.header{
+  background-color: rgb(205, 227, 239);
+  color: grey;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  font-family:'Roboto', sans-serif;
+  height: 80px;
+}
+.topnav-right{
+    float: right;
+    margin-bottom: 0px;
+}
+.navbar-nav .nav-link{
+  background-color:  rgb(205, 227, 239);
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left:50px;
+  margin-bottom: 0px;
+  color:  rgb(9, 51, 74);
+  font-size: 16px;
+  font-weight: 150;
+  margin-top: 15px;
+}
+.logo{
+  height: 45px;
+  margin-top:20px;
+  margin-left: 30px
+}
+.navbar-nav .nav-link:hover{
+  background-color: rgb(9, 51, 74);
+  color:rgb(205, 227, 239);
+}
+
+  
+  .order-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .order-section h1 {
+    text-align: center;
+    color: rgb(9, 51, 74);
+    margin-bottom: 10px;
+    
+  }
+.order-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(9, 51, 74);
+  }
+  
+  .form-group input, 
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(9, 51, 74);
+    color: rgb(205, 227, 239);
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .heading{
+    color: rgb(9,51,74);
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+  }
+  .submit-button:hover {
+    background-color: rgb(205, 227, 239);
+    transform: translateY(-3px);
+    color: rgb(9, 51, 74);
+  }
+  .order-section, .thank-you-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(205, 227, 239);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .order-section h1, .thank-you-section h1 {
+    font-size: 2rem;
+    color: rgb(9, 51, 74);
+  }
+  footer {
+    background-color: rgb(9,51,74);
+    color: rgb(205, 227, 239);
+    padding: 20px;
+    text-align: center;
+  }
+  footer a {
+    color: rgb(205, 227, 239);
+    text-decoration: none;
+    margin: 0px;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .footer-section {
+    margin-bottom: 15px;
+  }
+  

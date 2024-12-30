@@ -1,0 +1,106 @@
+.body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: grey;
+}
+.header{
+  background-color: rgb(205, 227, 239);
+  color: grey;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.topnav-right{
+    float: right;
+    margin-bottom: 0px;
+}
+.navbar-nav .nav-link{
+  background-color:  rgb(205, 227, 239);
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left:50px;
+  margin-bottom: 0px;
+  color:  rgb(9, 51, 74);
+  font-size: 16px;
+  font-weight: 150;
+  margin-top: 15px;
+}
+.logo{
+  height: 45px;
+  margin-top:20px;
+  margin-left: 30px
+ 
+}
+.navbar-nav .nav-link:hover{
+  background-color: rgb(9, 51, 74);
+  color:rgb(205, 227, 239);
+}
+.container{
+  color: rgb(9, 51, 74);
+}
+.heading{
+text-align: center;
+margin-top: 30px;
+font-weight: bold;
+font-size: 3rem;
+margin-bottom: 50px;
+font-family: Arial, Helvetica, sans-serif;
+ }
+ .heading-images{
+  height: 80px;
+
+ }
+
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: rgb(205, 227, 239);
+  color: rgb(9, 51, 74);
+  margin-top: 30px;
+}
+
+table thead {
+  background-color: rgb(9, 51, 74);
+  color: rgb(205, 227, 239);
+}
+
+table th, table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid rgb(9, 51, 74);
+}
+
+table tr:hover {
+  background-color: rgb(9, 51, 74);
+  color: rgb(205, 227, 239);
+}
+
+table th {
+  font-weight: bold;
+}
+footer {
+    background-color: rgb(9,51,74);
+    color: rgb(205, 227, 239);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  footer a {
+    color: rgb(205, 227, 239);
+    text-decoration: none;
+    margin: 0px;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .footer-section {
+    margin-bottom: 15px;
+  
+  }
+  section{
+    display: inline-block;
+    text-align: center;
+    margin-right: 130px;
+    
+  }

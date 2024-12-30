@@ -1,0 +1,93 @@
+/* Body background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(205, 227, 239); /* Light blue background */
+    color: black; /* Default text color */
+    padding: 20px;
+    margin: 0;
+}
+
+/* Feedback Button */
+.feedback-btn {
+    background-color: #007BFF; /* Bright blue for the button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.feedback-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Modal background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white; /* White background for the modal content */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button (X) */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.modal-content label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.modal-content input,
+.modal-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f0f8ff; /* Light blue background for input and textarea */
+}
+
+/* Button style for modal form submission */
+.modal-content button {
+    background-color: #007BFF; /* Bright blue for the submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

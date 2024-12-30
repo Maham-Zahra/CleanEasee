@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        .answer {
+            display: none;
+            margin-left: 20px;
+        }
+        .question {
+            cursor: pointer;
+            color: #007BFF;
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/question.css">
+</head>
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <ul>
+        <li>
+            <div class="question">Q: Will my clothes be washed separately from other customers?</div>
+            <div class="answer">A: Yes, your clothes will be washed separately from other customers' items. We ensure this to maintain hygiene, prevent any mix-ups, and provide proper care for your garments. Our service makes sure to give each customer individual attention.</div>
+        </li>
+        <li>
+            <div class="question">Q: How many days will it take to deliver my clothes?</div>
+            <div class="answer">A: Your clothes will be delivered within 2-3 days, depending on the service option you choose. We offer standard delivery times, but many other options are available if you require faster service. Our goal is to ensure timely delivery while maintaining high-quality care for your clothes.</div>
+        </li>
+        <li>
+            <div class="question">Q: Do you also provide ironing services along with the washing of clothes?</div>
+            <div class="answer">A: Yes, we do offer ironing services in addition to washing. You can opt for this service to ensure your clothes are freshly laundered and pressed, ready for wear upon delivery. Please let us know if you’d like to include ironing with your order.</div>
+        </li>
+    </ul>
+
+    <script>
+        document.querySelectorAll('.question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                } else {
+                    answer.style.display = 'block';
+                }
+            });
+        });
+    </script>
+    <!-- Back to Contact Link -->
+    <a href="contact.html">Back to Contact</a>
+</body>
+</html>

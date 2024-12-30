@@ -1,0 +1,135 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Fallback background color */
+    color: black; /* Black text color for contrast */
+}
+
+/* Contact Section */
+.contact-section {
+    background: url('/images/pic.jpeg.jpg') no-repeat center center; /* Correct syntax */
+    background-size: cover; /* Ensure the image covers the entire section */
+    color: black; /* Black text color for readability */
+    padding: 50px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: black; /* Main heading in black */
+    text-shadow: none; /* Remove shadow for a clean look */
+}
+.content p {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: black; /* White text for readability */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Add shadow for better visibility */
+}
+
+.contact-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-option {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    color: black; /* Text inside the box changed to black */
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-option h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black; /* Black text for contrast */
+}
+contact-option p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: black; /* Black text inside the box */
+}
+
+.contact-option .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-option a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black; /* Links inside the box now black */
+}
+
+.contact-option a:hover {
+    text-decoration: underline;
+}
+
+/* Feedback & FAQ buttons */
+.feedback-btn {
+    background-color: rgb(205, 227, 239); /* Change button background to royal blue */
+    color: black; /* Button text in black */
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.feedback-btn:hover {
+    background-color: rgb(205, 227, 239); /* Darker royal blue on hover */
+}
+
+.faq-btn {
+    background-color: rgb(205, 227, 239); /* Change button background to royal blue */
+    color: black; /* Button text in black */
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.faq-btn:hover {
+    background-color: rgb(205, 227, 239); /* Darker royal blue on hover */
+}
+
+/* Link styles for the sales section */
+.contact-option a {
+    color: black; /* Links inside the sales section changed to black */
+}
+
+.contact-option a:hover {
+    color:black; /* Darker blue on hover */
+}
+footer {
+    background-color: rgb(9,51,74);
+    color: rgb(205, 227, 239);
+    padding: 20px;
+    text-align: center;
+  }
+  footer a {
+    color: rgb(205, 227, 239);
+    text-decoration: none;
+    margin: 0px;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .footer-section {
+    margin-bottom:15px;
+}
